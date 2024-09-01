@@ -1,0 +1,426 @@
+/* Dashboard.css */
+.dashboard {
+    padding: 20px;
+  }
+  
+  .banner {
+    margin-bottom: 20px;
+  }
+  
+  .filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .filters select {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  .styled-table th,
+  .styled-table td {
+    padding: 12px 15px;
+  }
+  
+  .styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+  }
+  
+  .styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+  }
+  
+  .value-pending {
+    background-color: #f0ad4e;
+    color: white;
+  }
+  
+  .value-accepted {
+    background-color: #5cb85c;
+    color: white;
+  }
+  
+  .value-rejected {
+    background-color: #d9534f;
+    color: white;
+  }
+  
+  .green {
+    color: green;
+  }
+  
+  .red {
+    color: red;
+  }
+  .dashboard {
+    padding: 20px;
+    background-color: #f8f9fa; /* Soft background */
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .banner h5 {
+    font-size: 24px;
+    color: #343a40;
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+  
+  .filter-section h5 {
+    font-size: 20px;
+    color: #495057;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  
+  .filters {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .filters input,
+  .filters select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ced4da;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .filters input::placeholder {
+    color: #6c757d;
+  }
+  .table-container {
+    overflow-x: auto; /* Enable horizontal scrolling */
+    margin-top: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    
+  }
+  
+  .styled-table th,
+  .styled-table td {
+    padding: 14px 18px;
+  }
+  
+  .styled-table thead tr {
+    background-color: #007bff;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .styled-table tbody tr {
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .styled-table tbody tr:nth-of-type(even) {
+    background-color: #f8f9fa;
+  }
+  
+  .styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #007bff;
+  }
+  
+  .styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .value-pending {
+    background-color: #ffc107;
+    color: #ffffff;
+  }
+  
+  .value-accepted {
+    background-color: #28a745;
+    color: #ffffff;
+  }
+  
+  .value-rejected {
+    background-color: #dc3545;
+    color: #ffffff;
+  }
+  
+  .green {
+    color: #28a745;
+  }
+  
+  .red {
+    color: #dc3545;
+  }
+  
+  .modal-content {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .modal-content img {
+    width: 100%;
+    border-radius: 4px;
+  }
+  
+  .modal-content button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  .modal-content button:hover {
+    background-color: #0056b3;
+  }
+  .table-container {
+    overflow-x: auto; /* Enable horizontal scrolling */
+    margin-top: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* White background for better contrast */
+  }
+  
+  .styled-table {
+    width: 100%;
+    min-width: 1200px; /* Ensure enough width for all columns */
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    /* Remove extra padding around table */
+  }
+  
+  .styled-table th,
+  .styled-table td {
+    padding: 16px 20px 16px 20px; /* Increase padding for better readability */
+    white-space: nowrap; /* Prevent text wrapping for better alignment */
+  }
+  
+  .styled-table thead tr {
+    background-color: #007bff;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .styled-table tbody tr {
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .styled-table tbody tr:nth-of-type(even) {
+    background-color: #f8f9fa;
+  }
+  
+  .styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #007bff;
+  }
+  
+  .styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .value-pending {
+    background-color: #ffc107;
+    color: #ffffff;
+  }
+  
+  .value-accepted {
+    background-color: #28a745;
+    color: #ffffff;
+  }
+  
+  .value-rejected {
+    background-color: #dc3545;
+    color: #ffffff;
+  }
+  
+  .green {
+    color: #28a745;
+  }
+  
+  .red {
+    color: #dc3545;
+  }
+  .table-container {
+    overflow-x: auto; /* Enable horizontal scrolling */
+    margin-top: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* White background for better contrast */
+  }
+  
+  .styled-table {
+    width: 100%;
+    min-width: 1200px; /* Ensure enough width for all columns */
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 10px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden; /* Remove extra padding around table */
+    border: 1px solid #dee2e6; /* Add border around the entire table */
+  }
+  
+  .styled-table th,
+  .styled-table td {
+    padding: 16px 20px; /* Increase padding for better readability */
+    white-space: nowrap; /* Prevent text wrapping for better alignment */
+    border: 1px solid #dee2e6; /* Add border to table cells */
+  }
+  
+  .styled-table thead tr {
+    background-color: #007bff;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    padding: 5%;
+  }
+  
+  .styled-table tbody tr {
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .styled-table tbody tr:nth-of-type(even) {
+    background-color: #f8f9fa;
+  }
+  
+  .styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #007bff;
+  }
+  
+  .styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .value-pending {
+    background-color: white;
+    color: #ffffff;
+  }
+  
+  .value-accepted {
+    background-color: white;
+    color: #ffffff;
+  }
+  
+  .value-rejected {
+    background-color: white;
+    color: #ffffff;
+  }
+  
+  .green {
+    color: white;
+  }
+  
+  .red {
+    color: white;
+  }
+  .filter-section {
+    background-color: #f8f9fa; /* Light gray background for contrast */
+    padding: 10px;
+    border-radius: 8px; /* Rounded corners for a modern look */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin-bottom: 20px; /* Space below the section */
+  }
+  
+  .filter-section h5 {
+    font-size: 20px;
+    color: #343a40; /* Darker text color for better readability */
+    margin-bottom: 15px; /* Space between the title and filters */
+    font-weight: 600;
+  }
+  
+  .filters {
+    display: flex;
+    gap: 15px; /* Space between filter inputs */
+    flex-wrap: wrap; /* Allow wrapping for responsive design */
+  }
+  
+  .filters input {
+    padding: 10px 15px; /* Increase padding for better usability */
+    font-size: 16px;
+    border-radius: 6px; /* Rounded corners for a softer look */
+    border: 1px solid #ced4da; /* Light border for definition */
+    background-color: #ffffff; /* White background for inputs */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for inputs */
+    transition: border-color 0.3s ease; /* Smooth transition for focus state */
+    width: 100%; /* Make inputs responsive */
+    max-width: 220px; /* Control max width for better alignment */
+  }
+  
+  .filters input::placeholder {
+    color: #6c757d; /* Slightly muted placeholder text */
+  }
+  
+  .filters input:focus {
+    border-color: #007bff; /* Blue border on focus */
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 6px rgba(0, 123, 255, 0.25); /* Add a focus shadow */
+  }
+  
+  .csv-button {
+    margin: 15px 0;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .csv-button:hover {
+    background-color: #45a049;
+  }
+  
